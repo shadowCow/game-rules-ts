@@ -2,7 +2,6 @@ import { adt } from '@cow-sunday/fp-ts';
 
 export type GameRules<S, M> = {
   initState: () => S;
-  getCurrentTurnPlayerId: () => string;
   isValidMove: (s: S, m: M) => boolean;
   onMove: (s: S, m: M) => MoveResult<S>;
   getOutcome: (s: S) => GameOutcome;
