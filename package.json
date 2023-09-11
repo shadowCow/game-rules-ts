@@ -26,5 +26,8 @@
   "homepage": "https://github.com/shadowCow/game-rules-ts#readme",
   "dependencies": {
     "@cow-sunday/fp-ts": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
